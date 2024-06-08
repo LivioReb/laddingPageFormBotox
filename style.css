@@ -812,9 +812,9 @@ font-weight: 400;
 
 /* cssMOBILE ------------------------------------------------------------------------------- */
 @media (max-width: 932px) {
-    /* body{
+    body{
         overflow: hidden;
-    } */
+    }
     header#containerItens {
         display: grid;
         grid-template-areas: 
@@ -1433,5 +1433,112 @@ font-weight: 400;
        
         h2{
             margin-bottom: 15px;
+        }
+
+        #container7 {
+            height: 800px;
+            padding-top: 100px;
+        }
+        
+        .titleCont h2 {
+            font-size: 36px;
+            width: 400px;
+            justify-content: center;
+            text-align: center;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+        }
+        
+        .container07 {
+            height: 510px;
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: auto;
+            padding-bottom: 50px;
+        }
+        
+        .container07 h4 {
+            font-size: 22px;
+            flex-wrap: wrap;
+            width: 340px;
+            margin-bottom: 20px;
+        }
+        
+        
+        
+        .line2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            width: auto;
+            flex-wrap: wrap;
+            margin-top: 70px;
+        }
+        
+        .line4 {
+            height: 100px;
+            width: auto;
+            flex-wrap: wrap;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        
+        .line3 h5 {
+            font-size: 25px;
+            width: 350px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 80px;
+        }
+        
+        #container7 h6 {
+            font-size: 43px;
+            width: 300px;
+            color: #218B2F;
+            flex-wrap: wrap;
+        }
+        #container7 h7 {
+            font-size: 20px;
+            width: 300px;
+            color: #000000;
+            flex-wrap: wrap;
+        }
+        
+        .line5 {
+            width: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px; /* Ajustar a margem para centralizar o botão */
+        }
+        
+        .line3 {
+            padding-top: 20px;
+            width: 350px;
+            height: 30px;
+        }
+        
+        #button {
+            width: 300px;
+            height: 52px;
+            font-size: 20px;
+            padding: 10px 0px;
+        }
+        
+        .divContainer7 {
+            margin-top: -100px;
+        }
+        .container07{
+            margin-top: 20px;
+        }
+        .quadrado{
+           margin-top: -30px;
         }
     }
